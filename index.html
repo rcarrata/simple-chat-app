@@ -5,11 +5,12 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 <script src="/socket.io/socket.io.js"></script>
 
+<!-- Class container for our chat message bootstrap layout  -->
 <div class="container">
     <br>
-    <div class ="jumbotron">
-        <h1 class="display-4"> Chat Message </h1>
-        <br>
+    <div class ="jumbotron"> <!-- Doc: shorturl.at/enpY3  -->
+        <h1 class="display-4"> Chat Message </h1> 
+        <hr class="my-4">
         <input id="name" class="form-control" placeholder="Name">
         <br>
         <textarea id="message" class="form-control" placeholder="Message"></textarea>        
@@ -21,6 +22,7 @@
     </div>
 </div>
 
+<!-- Scripts in jquery & javascript for make a simple frontend  -->
 <script>
     var socket = io()
     $(() => {
