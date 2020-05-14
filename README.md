@@ -12,6 +12,10 @@ Expect some wierd code, comments and messy stuff around :)
 
 ## Screenshots
 
+* FrontEnd
+
 ![Frontend](./images/nodeapp2.png "Frontend")
+
+* Remote Database (mlab)
 
 ![Database](./images/nodeapp1.png "Database")
