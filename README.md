@@ -19,4 +19,3 @@ Expect some wierd code, comments and messy stuff around :)
 * Remote Database (mlab)
 
 ![Database](./images/nodeapp1.png "Database")
->>>>>>> develop
